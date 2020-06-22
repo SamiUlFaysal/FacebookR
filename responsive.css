@@ -1,0 +1,71 @@
+@media (max-width: 575.98px) {
+    .container {
+        width: unset;
+
+    }
+}
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .logo {width: 100%;text-align: center;}
+    .login {width: 100%; text-align: center;}
+    .login a{display: block;}
+    .login form {float: unset;}
+    .email-area,.password-area{float: none;}
+    .login input{display:unset;width: 70%;padding: 5px }
+    .submit-area input {margin-top: 38px;margin-top: 20px;width: 46% !important;padding: 9px 0px;margin-left: -3px;}
+    .fbl{width: 100%;margin-right: 0px;}
+    .fbl h2{ text-align: center;margin: 0px 5px 0px 5px;}
+    .fbr{width: 100%; text-align: center;}
+    .fbr input[type="text"], .fbr input[type="password"]{width: 96%; margin-left: 2%;margin-right: 2%;}
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .submit-area input {
+        margin-top: 38px;
+    }
+    .fbl{width: 100%;margin-right: 0px;}
+    .fbl h2{ text-align: center;}
+    .fbr{width: 100%; text-align: center;}
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .submit-area {
+        overflow: unset;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
